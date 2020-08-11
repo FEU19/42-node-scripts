@@ -1,9 +1,11 @@
-const importedFunction = require('./module.js');
+const myModule = require('./module.js');
+const importedFunction = myModule.moduleFunction;
+
 const fs = require('fs');
 
 // i React: import moduleFunction from './module.js'
 
-console.log('Hello world!');
+console.log('Hello world!!');
 
 importedFunction();
 
